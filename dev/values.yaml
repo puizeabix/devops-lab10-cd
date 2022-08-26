@@ -12,7 +12,7 @@ userService:
   enabled: true
   name: "user-service"
   image: "pttgcdevopsarc12.azurecr.io/user-service" #Change this `pttgcdevopsacr02.azureecr.io` to your own acr
-  tag: "c0579fc9806603c2a54817b5fb19e3928337d2ed"
+  tag: "55c37bba100e3d2c496b4d594aa093e96e744399"
   pullPolicy: IfNotPresent
   servicePort: 8080
   resources:
